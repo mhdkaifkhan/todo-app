@@ -1,0 +1,104 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg, #4facfe, #00f2fe);
+    margin: 0;
+}
+
+.container {
+    width: 420px;
+    margin: 60px auto;
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+/* header row */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.progress {
+    font-size: 14px;
+    color: #555;
+}
+
+/* list items */
+.list-item {
+    background: #f9f9f9;
+    padding: 10px;
+    border-radius: 6px;
+    margin-bottom: 8px;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.list-item:hover {
+    background: #ececec;
+}
+
+/* input row */
+.task-row {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.task-row input {
+    flex: 1;
+    padding: 8px;
+}
+
+.task-row button {
+    margin-left: 5px;
+}
+
+/* task list */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background: #f4f4f4;
+    padding: 8px;
+    margin: 6px 0;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* completed */
+.completed {
+    text-decoration: line-through;
+    color: gray;
+}
+
+/* delete button */
+.delete-btn {
+    background: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 4px 6px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+/* back button */
+.back-btn {
+    background: #555;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    cursor: pointer;
+    border-radius: 4px;
+}
